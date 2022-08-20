@@ -1,0 +1,30 @@
+name: "Validation"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  json:
+    name: "JSON"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Validate
+      run: |
+        find -type f -name *.json | xargs -t jq empty
+  xml:
+    name: "XML"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Validate
+      run: |
+        # TODO
+        exit 0

@@ -1,0 +1,20 @@
+{
+ "service_providers": [
+  {
+   "id": "samltest.id",
+   "entityId": "https://samltest.id/saml/sp",
+   "metadataUrl": "samltest.id.xml"
+  }
+ ],
+ "users": [
+  {
+   "id": "id1",
+   "username": "user1",
+   "password": "passworduser1",
+   "firstname": "Test",
+   "lastname": "User",
+   "email": "test-user@example.com",
+   "emailVerified": true
+  }
+ ]
+}
