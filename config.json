@@ -1,20 +1,30 @@
 {
- "service_providers": [
-  {
-   "id": "samltest.id",
-   "entityId": "https://samltest.id/saml/sp",
-   "metadataUrl": "samltest.id.xml"
-  }
- ],
- "users": [
-  {
-   "id": "id1",
-   "username": "user1",
-   "password": "passworduser1",
-   "firstname": "Test",
-   "lastname": "User",
-   "email": "test-user@example.com",
-   "emailVerified": true
-  }
- ]
+    "service_providers": [
+        {
+            "id": "samltest.id",
+            "entityId": "https://samltest.id/saml/sp",
+            "metadataUrl": "samltest.id.xml"
+        }
+    ],
+    "users": [
+        {
+            "id": "id1",
+            "username": "user1",
+            "password": "passworduser1",
+            "firstname": "Test",
+            "lastname": "User",
+            "email": "test-user@example.com",
+            "emailVerified": true
+        }
+    ],
+    "clients": [
+        {
+            "name": "OpenID Connect Tester",
+            "clientId": "kbyuFDidLLm280LIwVFiazOqjO3ty8KH",
+            "clientSecret": "60Op4HFM0I8ajz0WdiStAbziZ-VFQttXuxixHHs2R7r7-CW8GR79l-mmLqMhc-Sa",
+            "redirectUris": [
+                "https://openidconnect.net/callback"
+            ]
+        }
+    ]
 }
