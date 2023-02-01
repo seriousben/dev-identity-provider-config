@@ -23,7 +23,8 @@
             "clientId": "kbyuFDidLLm280LIwVFiazOqjO3ty8KH",
             "clientSecret": "60Op4HFM0I8ajz0WdiStAbziZ-VFQttXuxixHHs2R7r7-CW8GR79l-mmLqMhc-Sa",
             "redirectUris": [
-                "https://openidconnect.net/callback"
+                "https://openidconnect.net/callback",
+                "https://flow.idp.hashicorp.com/sso/oidc/callback"
             ]
         }
     ]
