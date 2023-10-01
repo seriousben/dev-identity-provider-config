@@ -15,7 +15,7 @@ jobs:
     name: "JSON"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Validate
       run: |
         find -type f -name *.json | xargs -t jq empty
@@ -23,7 +23,7 @@ jobs:
     name: "XML"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Validate
       run: |
         # TODO
