@@ -24,7 +24,8 @@
             "clientSecret": "60Op4HFM0I8ajz0WdiStAbziZ-VFQttXuxixHHs2R7r7-CW8GR79l-mmLqMhc-Sa",
             "redirectUris": [
                 "https://openidconnect.net/callback",
-                "https://flow.idp.hashicorp.com/sso/oidc/callback"
+                "https://flow.idp.hashicorp.com/sso/oidc/callback",
+                "https://bboudreau01-lsev8hbc.dev.pedp-remote.hashicorp.services/sso/oidc/callback"
             ]
         }
     ]
